@@ -1,0 +1,91 @@
+﻿[dotenv@17.3.1] injecting env (4) from .env -- tip: ­ƒøí´©Å auth for agents: https://vestauth.com
+node : G:\Study\New Java 
+Programming\new one\avdhoo
+t-backend\node_modules\pat
+h-to-regexp\dist\index.js:
+85
+At line:1 char:1
++ node src/server.js 2>&1 
+| Out-File -FilePath 
+server_out2.txt -Encodin 
+...
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (G  
+  :\Study\New Ja...ist\   
+ index.js:85:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+            throw new 
+PathError(`Missing 
+parameter name at index 
+${index}`, str);
+            ^
+
+PathError [TypeError]: 
+Missing parameter name at 
+index 1: *; visit https://
+git.new/pathToRegexpError 
+for info
+    at name (G:\Study\New 
+Java Programming\new one\a
+vdhoot-backend\node_module
+s\path-to-regexp\dist\inde
+x.js:85:19)
+    at parse 
+(G:\Study\New Java 
+Programming\new one\avdhoo
+t-backend\node_modules\pat
+h-to-regexp\dist\index.js:
+101:59)
+    at pathToRegexp 
+(G:\Study\New Java 
+Programming\new one\avdhoo
+t-backend\node_modules\pat
+h-to-regexp\dist\index.js:
+263:56)
+    at Object.match 
+(G:\Study\New Java 
+Programming\new one\avdhoo
+t-backend\node_modules\pat
+h-to-regexp\dist\index.js:
+225:30)
+    at matcher 
+(G:\Study\New Java 
+Programming\new one\avdhoo
+t-backend\node_modules\rou
+ter\lib\layer.js:86:23)
+    at new Layer 
+(G:\Study\New Java 
+Programming\new one\avdhoo
+t-backend\node_modules\rou
+ter\lib\layer.js:93:62)
+    at Function.route 
+(G:\Study\New Java 
+Programming\new one\avdhoo
+t-backend\node_modules\rou
+ter\index.js:428:17)
+    at Function.route 
+(G:\Study\New Java 
+Programming\new one\avdhoo
+t-backend\node_modules\exp
+ress\lib\application.js:25
+7:22)
+    at app.<computed> [as 
+options] (G:\Study\New 
+Java Programming\new one\a
+vdhoot-backend\node_module
+s\express\lib\application.
+js:478:22)
+    at Object.<anonymous> 
+(G:\Study\New Java 
+Programming\new one\avdhoo
+t-backend\src\server.js:18
+:5) {
+  originalPath: '*'
+}
+
+Node.js v22.20.0
